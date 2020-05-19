@@ -1,14 +1,16 @@
---git remote add origin https://github.com/RicksLWilliams/store.git
---git push -u origin master
+--USE librarya;
 
+-- CREATE TABLE shoes (
+--   id INT NOT NULL AUTO_INCREMENT,
+--   title VARCHAR(80) NOT NULL,
+--   details VARCHAR(255),
+--   style VARCHAR(255),
+--   color VARCHAR(255),
+--   size VARCHAR(255),
+--   supply INT NOT NULL,
+--   PRIMARY KEY (id)
+-- )
 
-CREATE TABLE shoes (
-  id INT NOT NULL AUTO_INCREMENT,
-  title VARCHAR(80) NOT NULL,
-  details VARCHAR(255),
-  Style VARCHAR(255),
-  Color VARCHAR(255),
-  Size VARCHAR(255),
-  Supply INT NOT NULL,
-  PRIMARY KEY (id)
-)
+--select * from shoes
+INSERT INTO shoes (title, details, style, supply )
+ VALUES ('shoe 2', 'shoe details 2', 'style', 100);
